@@ -75,4 +75,22 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
-}
+    
+    /**
+     * Fija el precio del billete a un precio dado
+     */
+    public void setPrice(int precioDelBillete)
+    {
+        price = precioDelBillete;       
+  
+    }
+    
+    /**
+     * mensaje de que se inserte el correcto precio
+     */
+    public void promptTicketMachine()
+    {
+        System.out.println("Please, insert the correct amount of money");
+    }    
+
+    }
