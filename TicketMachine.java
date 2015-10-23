@@ -88,9 +88,17 @@ public class TicketMachine
     /**
      * mensaje de que se inserte el correcto precio
      */
-    public void promptTicketMachine()
+    public void prompt()
     {
         System.out.println("Please, insert the correct amount of money");
     }    
+    
+    /**
+     * indica el precio del billete que tienes que abonar
+     */
+    public void showPrice()
+    {
+        System.out.println("the price of ticket is " + price + " cents.");
+    }
 
     }
