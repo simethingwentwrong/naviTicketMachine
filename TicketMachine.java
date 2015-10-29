@@ -110,5 +110,13 @@ public class TicketMachine
     {
         System.out.println("the price of ticket is " + price + " cents.");
     }
+    
+    /**
+     * sacar todas las monedas que estan en la maquina
+     */
+    public void empty ()
+    { 
+      total= 0;            
 
     }
+}
